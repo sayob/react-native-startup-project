@@ -5,6 +5,7 @@ import {
     StatusBar, 
     Alert 
 } from 'react-native';
+import { AdMobBanner } from 'react-native-admob';
 
 import _TextInput from '../../../components/TextInput';
 import _Button from '../../../components/Button';
@@ -71,6 +72,13 @@ export default class Login extends Component {
                     <_Button onPress={this.submitForm} text='Submit' />
 
                 </View>
+
+                <AdMobBanner
+                    adSize="fullBanner"
+                    adUnitID="ca-app-pub-7899088075769475/2529045903"
+                    testDevices={[AdMobBanner.simulatorId]}
+                    onAdFailedToLoad={error => console.error(error)}
+                />
             </ImageBackground>
         )
     }
