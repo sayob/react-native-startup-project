@@ -5,7 +5,7 @@ export default class Menu extends Component {
     render() {
         return (
             <View>
-                <Text> Menu </Text>
+                
             </View>
         )
     }

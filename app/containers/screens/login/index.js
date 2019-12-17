@@ -18,8 +18,8 @@ export default class Login extends Component {
         super(props)
     
         this.state = {
-            username: 's',
-            password: 's'
+            username: '',
+            password: ''
         }
     }
 
