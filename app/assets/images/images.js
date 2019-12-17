@@ -5,4 +5,15 @@ export const appImages = {
     kitten2: require('./kitten2.jpg'),
     kitten3: require('./kitten3.jpg'),
     kitten4: require('./kitten4.jpg'),
+
+    emptyImage: require('./kitten4.jpg')
+}
+
+export const avatars = {
+    one: require('./home.jpg'),
+    two: require('./login.jpg'),
+    three: require('./kitten1.jpg'),
+    four: require('./kitten2.jpg'),
+    five: require('./kitten3.jpg'),
+    six: require('./kitten4.jpg'),
 }
