@@ -39,18 +39,22 @@ export default class Menu extends Component {
 const Kittens = [
     {
         text: 'Menu Item 1',
-        image: appImages.kitten1
+        image: appImages.kitten1,
+        route: 'List'
     },
     {
         text: 'Menu Item 2',
-        image: appImages.kitten2
+        image: appImages.kitten2,
+        route: 'List'
     },
     {
         text: 'Menu Item 3',
-        image: appImages.kitten3
+        image: appImages.kitten3,
+        route: 'List'
     },
     {
         text: 'Menu Item 4',
-        image: appImages.kitten4
+        image: appImages.kitten4,
+        route: 'List'
     }
 ]

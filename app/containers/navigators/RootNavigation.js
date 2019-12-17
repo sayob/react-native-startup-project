@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform } from 'react-native'
+import { Platform, View } from 'react-native'
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import * as colors from '../../assets/styles/colors';
 
@@ -34,7 +34,8 @@ const AppRoot = createStackNavigator({
     List: {
         screen: ({ navigation }) => <List navigation={navigation} />,
         navigationOptions: {
-            header: null,
+            title: 'List',
+            headerRight: <View />
         }
     },
     
@@ -43,6 +44,7 @@ const AppRoot = createStackNavigator({
         defaultNavigationOptions: {
             headerStyle: {
                 backgroundColor: colors.primaryColor,
+                color: colors.white,
                 elevation: 0,
                 shadowOpacity: 0,
                 shadowColor: 'transparent',
@@ -59,6 +61,7 @@ const AppRoot = createStackNavigator({
                 flex: 1,
                 marginTop: Platform.OS === 'ios' ? 5 : 10,
             },
+            headerTintColor: colors.white
         },
         headerTransitionPreset: 'center'
     }
