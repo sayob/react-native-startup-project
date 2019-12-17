@@ -6,6 +6,10 @@ const style = StyleSheet.create({
 		flex: 1
   },
 
+  coloredBackground: {
+    backgroundColor: '#C5C5C5'
+  },
+
   button: {
     borderRadius: 3,
     alignSelf: 'center',
@@ -35,7 +39,29 @@ const style = StyleSheet.create({
 
   backImageStyle: {
     opacity: 0.2
-  }
+  },
+
+  containerStyle: {
+    backgroundColor: colors.white,
+    margin: 8,
+    borderRadius: 8,
+  },
+  innerContainer:{
+    flexDirection: 'column',
+  },
+  imageContainer:{
+    width: '100%',
+    height: 175
+  },
+  text: {
+    padding: 13,
+    fontSize: 15,
+  },
+  image: {
+    borderTopRightRadius: 3,
+    borderTopLeftRadius: 3,
+    flex: 1
+  }, 
 });
 
 export default style;
