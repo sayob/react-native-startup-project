@@ -3,6 +3,10 @@ package com.reactnativestartupproj;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+
+import com.sbugert.rnadmob.RNAdMobPackage;
+import android.content.Intent;
+
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
@@ -28,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new VectorIconsPackage(),
             new RNGestureHandlerPackage(),
+            new RNAdMobPackage(),
             new ReanimatedPackage()
       );
     }
