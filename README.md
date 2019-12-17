@@ -16,6 +16,11 @@ npm packages available/used
 
 
 
-Credits
+Photo Credits
   - Home Photo by STIL on Unsplash
   - Login Photo by Amanda Yum on Unsplash
+  - Cat Photos by 
+      - The Lucky Neko on Unsplash
+      - Chelsea B. on Unsplash
+      - Cong H on Unsplash
+      - Hike Shaw on Unsplash
