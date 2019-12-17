@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
-import { ImageBackground, View, StatusBar } from 'react-native';
+import { 
+    ImageBackground, 
+    View, 
+    StatusBar, 
+    Alert 
+} from 'react-native';
 
 import _TextInput from '../../../components/TextInput';
 import _Button from '../../../components/Button';
@@ -13,13 +18,19 @@ export default class Login extends Component {
         super(props)
     
         this.state = {
-            username: '',
-            password: ''
+            username: 's',
+            password: 's'
         }
     }
 
     submitForm = () => {
+        let { username, password } = this.state;
 
+        if (!username || !password){
+            Alert.alert('Ooopps', 'Please enter your username and password to continue')
+        } else{
+            this.props.navigation.navigate('Menu')
+        }
     }
     
 
@@ -49,6 +60,7 @@ export default class Login extends Component {
                         ref={(el) => this.passwordInput = el}
                         onChangeText={(password) => { this.setState({ password }) }}
                         text={password}
+                        secureTextEntry={true}
                         placeholder='Enter password'
                         placeholderTextColor='#999'
                         underlineColorAndroid='transparent'
