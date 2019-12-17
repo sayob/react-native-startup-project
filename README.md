@@ -8,3 +8,14 @@ To use
 - run `npm i`
 - run `react-native run-android` / `react-native run-ios` 
 
+
+npm packages available/used
+- `react-navigation`
+- `react-native-vector-icons`
+- `react-native-keyboard-aware-scroll-view` 
+
+
+
+Credits
+  - Home Photo by STIL on Unsplash
+  - Login Photo by Amanda Yum on Unsplash
