@@ -28,3 +28,6 @@ Photo Credits
       - Chelsea B. on Unsplash
       - Cong H on Unsplash
       - Hike Shaw on Unsplash
+
+
+[![Build status](https://build.appcenter.ms/v0.1/apps/d544ae8b-f496-4c8f-97a7-094f85ff3fdb/branches/appcenterAndroidCI/badge)](https://appcenter.ms)
