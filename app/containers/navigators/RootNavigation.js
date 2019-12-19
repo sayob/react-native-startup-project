@@ -63,7 +63,7 @@ const AppRoot = createStackNavigator({
             },
             headerTintColor: colors.white
         },
-        headerTransitionPreset: 'center'
+        headerTransitionPreset: 'uikit'
     }
 );
 const AppNav = createAppContainer(AppRoot);
