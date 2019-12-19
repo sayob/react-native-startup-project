@@ -1,0 +1,6 @@
+framework module Pods_reactNativeStartupProj_tvOS {
+  umbrella header "Pods-reactNativeStartupProj-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
