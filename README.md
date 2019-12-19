@@ -14,6 +14,9 @@ npm packages available/used
 - `react-native-vector-icons`
 - `react-native-keyboard-aware-scroll-view` 
 
+Coming soon
+- Push Notifications using appcenter push SDK
+- App analytics and crash report using appcenter-analytics and appcenter-crashes
 
 
 Photo Credits
