@@ -1,4 +1,4 @@
-package com.reactnativestartupproj;
+package com.app.reactnativestartupproj;
 
 import com.facebook.react.ReactActivity;
 
